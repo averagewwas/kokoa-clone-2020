@@ -16,7 +16,7 @@
 
 .status-bar__column:last-child {
   display: flex;
-  justify-self: flex-end;
+  justify-content: flex-end;
   align-items: center;
 }
 

@@ -3,8 +3,28 @@
   display: block;
   background-color: #fafafa;
   padding: 15px 0px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: -15px;
 }
 
 #flink i {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgba(212, 99, 99, 0.3);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(0, 0, 0, 0.5);
 }
